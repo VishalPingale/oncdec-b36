@@ -60,7 +60,9 @@ kubectl expose pod pod-1 --port=80 --target-port=80 --type=ClusterIP
 ```
 kubectl get svc
 ```
-
+````
+kubectl exec -it  podnname  -- curl clusterIP
+````
 ---
 
 ## ✅ **NodePort (Access from Browser using Node IP)**
