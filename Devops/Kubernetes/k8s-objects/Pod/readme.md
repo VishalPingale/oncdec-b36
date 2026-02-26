@@ -1,3 +1,6 @@
+
+## Basic k8s commands
+
 # create pod using manifest file
 ````
 vim pod.yaml
@@ -27,6 +30,7 @@ kubectl exec -it podname  -- bash
 ````
 kubectl logs podname
 ````
+
 # create service to access app
 ````
 kubectl expose pod podname --port=80 --target-port=80 --type=NodePort 
@@ -34,4 +38,13 @@ kubectl expose pod podname --port=80 --target-port=80 --type=NodePort
 # list services
 ````
 kubectl get svc
+````
+# delete svc
+````
+kubectl delete svc svcname
+````
+
+# delete pod
+````
+kubectl delete pod podname
 ````
