@@ -1,3 +1,8 @@
+## Que. Diff Deployment vs Statefulset
+
+<img width="966" height="487" alt="image" src="https://github.com/user-attachments/assets/e96a43f9-2db3-41d1-9ba9-1fdb9ac01f1c" />
+
+
 # StatefulSet
 A StatefulSet runs a group of Pods, and maintains a sticky identity for each of those Pods. 
 This is useful for managing applications that need persistent storage or a stable, unique network identity.
